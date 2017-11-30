@@ -39,7 +39,7 @@ else {
 		r.setPenWidth(10);
 	    //1. make the robot draw a shape (this will take more than one line of code)
 for (int i = 0; i < 360; i++) {
-	r.setSpeed(50);
+	r.setSpeed(15);
 
 r.move(2);
 r.turn(1);

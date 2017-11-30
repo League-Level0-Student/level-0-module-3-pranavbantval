@@ -18,12 +18,13 @@ if (n>3) {
 	JOptionPane.showMessageDialog(null, "You are a crazy cat person!");
 }
 		// 4. If they have 3 or less, call the method below to show them a cat video
-if (n<=3) {
-	playVideo("www.youtube.com/watch?v=5dsGWM5XGdg&t=188s");
+if (n<=3&&n>0) {
+	playVideo("http://www.youtube.com/watch?v=5dsGWM5XGdg&t=188s");
+	
 }
 		// 5. If they say 0, show them a video of A Frog Sitting on a Bench Like a Human
-		if (n<1) {
-			playVideo("www.youtube.com/watch?v=JuDTJ0iSk3U");
+		if (n<=0) {
+			playVideo("http://www.youtube.com/watch?v=JuDTJ0iSk3U");
 		}
 	}
 
